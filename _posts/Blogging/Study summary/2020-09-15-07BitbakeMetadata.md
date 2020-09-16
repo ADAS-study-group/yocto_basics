@@ -3,7 +3,7 @@ title: Study summary 기록 2020-09-15
 author: Leehyunho94
 date: 2020-09-15 14:10:00 +0800
 categories: [Blogging, Study summary]
-tags: [Writing, Yocto, Study]
+tags: [Writing, Yocto]
 ---
 
 
