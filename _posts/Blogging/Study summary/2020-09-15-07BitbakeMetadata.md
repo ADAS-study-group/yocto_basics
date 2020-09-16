@@ -258,7 +258,7 @@ VARIABLE = "${<python-command>}"
 
 ex)
 
-DATE = DATE = "${(atlme.strftime(1 %Y%m%d1 ,time.gmtime())}"
+DATE = DATE = "${(@time.strftime(1 %Y%m%d1 ,time.gmtime())}"
 
 DATE의 값은 오늘의 날짜.
 
@@ -278,7 +278,7 @@ echo "Hello, world!"\
 
 python do_prlntdate () { \
 import time\
-print tlme.strftlme('%Y%m%d', tlme.gmtime())\
+print time.strftlme('%Y%m%d', time.gmtime())\
 }
 
 -------------------------------------------------
@@ -290,7 +290,7 @@ print tlme.strftlme('%Y%m%d', tlme.gmtime())\
 ex)
 
 def get_depends(d):\
-  if d.getVar(1SOMECONDITION'):\
+  if d.getVar('SOMECONDITION'):\
       return "dependencywlthcond \
   else:\
       return "dependency"\
